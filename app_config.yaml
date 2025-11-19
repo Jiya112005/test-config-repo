@@ -1,0 +1,10 @@
+app_name: "super-secure-app"
+version: "1.0.0"
+database:
+  host: "db.production.local"
+  port: 5432
+security:
+  enable_https: true
+  # ERROR: This should be false in production!
+  debug: true 
+  max_retries: 5
